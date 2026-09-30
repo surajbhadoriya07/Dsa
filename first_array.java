@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+
+        // Original C++ printed the array object's address.
+        // Java's equivalent useful representation is:
+        System.out.println(arr);
+        System.out.println(java.util.Arrays.toString(arr));
+    }
+}
